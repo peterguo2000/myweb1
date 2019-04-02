@@ -7,6 +7,8 @@ node {
     download = true
 }
 
+jar.dependsOn 'npm_run_build'
+
 jar {
   from 'dist/dbwatcher-ui' into 'static'
 }
