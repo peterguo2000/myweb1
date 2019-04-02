@@ -13,7 +13,7 @@ public class DBWatcherAPIApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DBWatcherAPIApplication.class, args);
-		Browse();
+	//	Browse();
 	}
 	
 	public static void Browse() {
