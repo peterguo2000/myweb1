@@ -27,7 +27,7 @@ public class DBWatcherAPIService {
 		List<Admin>  admins = adminRepository.findFirstThree();
 		StringBuilder sb = new StringBuilder();
 		admins.forEach(a -> sb.append(a.toString()));
-		
+		sb.append("\ntest,test");
 		return new ByteArrayResource(sb.toString().getBytes());
 	}
 }
